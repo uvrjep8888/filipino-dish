@@ -1,10 +1,11 @@
 const express = require("express")
 
-const {getEntries} = require("../controllers/entryController")
+const {getEntries, getFood} = require("../controllers/entryController")
 
 
 const router = express.Router();
 
 router.get("/", getEntries)
+router.get("/food", getFood)
 
 module.exports = router; 
