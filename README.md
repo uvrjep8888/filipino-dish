@@ -2,7 +2,7 @@
 ````markdown
 # 🍽️ Pinoy Ulam API
 
-![Pinoy Ulam API Logo](./logo.png)
+![Pinoy Ulam API Logo](./pinoyDishes.png)
 
 > **Pinoy Ulam API** helps indecisive foodies decide what to eat today by serving random Filipino dish (ulam) suggestions. Whether you’re craving adobo, sinigang, or something new, this API provides quick, randomized recommendations to inspire your next meal.
 
@@ -121,21 +121,11 @@ GET /api/entries/food/type?value=vegetable
 ]
 ```
 
----
 
-## 🧪 Coming Soon
-
-* `GET /api/entries/food/:id`
-* `GET /api/entries/food/search?q=adobo`
-* `GET /api/entries/type`
-* `GET /api/entries/region/:region`
-* `GET /api/entries/random/quote`
-
----
 
 ## 📣 Tagline
 
-> "Para sa mga walang maisip na ulam."
+> "Ulam ideas, the Filipino way."
 
 ---
 
