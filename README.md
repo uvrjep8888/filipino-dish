@@ -1,6 +1,6 @@
 # 🍽️ Pinoy Ulam API
 
-![Pinoy Ulam API Logo](./logo.png)
+![Pinoy Ulam API Logo](./pinoyDish.png)
 
 > **Pinoy Ulam API** helps indecisive foodies decide what to eat today by serving random Filipino dish (ulam) suggestions. Whether you’re craving adobo, sinigang, or something new, this API provides quick, randomized recommendations to inspire your next meal.
 
