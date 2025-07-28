@@ -1,5 +1,4 @@
 
-````markdown
 # 🍽️ Pinoy Ulam API
 
 ![Pinoy Ulam API Logo](./pinoyDish.png)
