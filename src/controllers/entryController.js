@@ -16,3 +16,19 @@ exports.getFood = async (req, res) => {
 
 	res.json(food)
 }
+
+
+exports.getFoodByType = async (req, res) => {
+	const {type} = req.params
+	const foods = await fetchEntry(); 
+
+	const filteredFood = foods[0].filter((food) => {
+		// console.log('ty', food.type)
+		return food.type == type 
+	})
+
+	 console.log(filteredFood)
+	
+
+	res.send(filteredFood)
+}
