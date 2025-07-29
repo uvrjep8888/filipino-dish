@@ -38,7 +38,7 @@ exports.getFoodByName = async (req,res) => {
 	console.log("tester", test.trim.toLowerCase().includes(name.trim.toLowerCase()))
 
 	console.log("name type", typeof name)
-	console.log("test type" typeof test)
+	console.log("test type", typeof test)
 
 
 	const result = foods[0].filter((food) => {
