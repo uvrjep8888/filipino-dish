@@ -35,6 +35,8 @@ exports.getFoodByName = async (req,res) => {
 	const name = req.query.name;
 	const foods = await fetchEntry(); 	
 	console.log("name-value", name)
+	const test = "adobo";
+	console.log("tester", test.toLowerCase().includes(name.toLowerCase()))
 	console.log("getting the variable value ..... ")
 	const result = foods[0].filter((food) => {
 		console.log('id', food.name)
