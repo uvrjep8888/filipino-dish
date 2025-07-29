@@ -37,6 +37,7 @@ exports.getFoodByName = async (req,res) => {
 	console.log("name-value", name)
 	console.log("getting the variable value ..... ")
 	const result = foods[0].filter((food) => {
+		console.log('id', food.name)
 		console.log('food', food.name.toLowerCase().includes(name.toLowerCase()))
 		return food.name.toLowerCase().includes(name.toLowerCase())
 	})
