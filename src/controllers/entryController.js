@@ -41,7 +41,7 @@ exports.getFoodByName = async (req,res) => {
 
 	console.log("consoling the result ")
 
-	console.log("result', result)
+	console.log("result", result)
 
 	res.send(result)
 
