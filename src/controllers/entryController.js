@@ -31,12 +31,17 @@ exports.getFoodByType = async (req, res) => {
 
 exports.getFoodByName = async (req,res) => {
 
+	console.log("starting to getfoodbyname function ...... ")
 	const name = req.query.name;
 	const foods = await fetchEntry(); 	
-
+	console.log("getting the variable value ..... ")
 	const result = foods[0].filter((food) => {
 		return food.name.toLowerCase().includes(name.toLowerCase())
 	})
+
+	console.log("consoling the result ")
+
+	console.log("result', result)
 
 	res.send(result)
 
