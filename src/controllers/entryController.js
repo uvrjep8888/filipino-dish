@@ -28,11 +28,11 @@ exports.getFoodsByType = async (req, res) => {
 };
 
 exports.getFoodByName = async (req, res) => {
-  const name = req.query.name;
+  const { search } = req.params;
   const foods = await fetchEntry();
 
   const result = foods[0].filter((food) => {
-    return food.name.toLowerCase().includes(name.toLowerCase());
+    return food.name.toLowerCase().includes(search.toLowerCase());
   });
 
   res.send(result);
